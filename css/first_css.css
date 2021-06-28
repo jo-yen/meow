@@ -1,0 +1,89 @@
+html, body {
+    padding: 0%;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0 0;
+}
+
+div.block1 {
+    width: 1000px;
+    height: 500px;
+    background-image: url('../img/two.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+}
+
+div.block2 {
+    width: 1000px;
+    height: 500px;
+    background-image: url('../img/1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:black;
+}
+
+div.block3 {
+    height: 100%;
+    background-color: rgb(235, 196, 146);
+    color:white;
+}
+
+div.block4 {
+    height: 100%;
+    background-color: rgb(236, 159, 57);
+    color:white;
+}
+
+footer {
+    height: 10%;
+    background-color: rgb(160, 160, 160);
+    color:black;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+  
+ul.topnav li {
+    float: left;
+}
+  
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+ul.topnav li a:hover:not(.active) {
+    background-color: rgb(255, 104, 3);
+}
+
+ul.topnav li a.active {
+    background-color: #4CAF50;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
